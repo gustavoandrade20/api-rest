@@ -38,15 +38,3 @@ Foi criada com foco em boas práticas, segurança e organização seguindo a arq
 
 ---
 
-## 🗂 Estrutura de Pastas
-src/
-├── config/
-├── controllers/
-├── database/
-├── middleware/
-├── models/
-├── routes/
-└── uploads/
-=======
-
->>>>>>> 47a43520a4fd044dbe6b08b7f9582eb3d0999ab0
