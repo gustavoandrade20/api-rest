@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 API REST com Node.js, Express e MySQL
 
 Este projeto é uma **API REST completa** desenvolvida com **Node.js**, **Express**, **MySQL** e **JavaScript (ES6+)**.  
@@ -46,3 +47,6 @@ src/
 ├── models/
 ├── routes/
 └── uploads/
+=======
+
+>>>>>>> 47a43520a4fd044dbe6b08b7f9582eb3d0999ab0
