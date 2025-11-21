@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 📚 API REST com Node.js, Express e MySQL
 
 Este projeto é uma **API REST completa** desenvolvida com **Node.js**, **Express**, **MySQL** e **JavaScript (ES6+)**.  
