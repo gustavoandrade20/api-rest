@@ -13,7 +13,6 @@ class UserController {
     }
   }
 
-  // Index
   async index(req, res) {
     try {
       const users = await User.findAll({ attributes: ['id', 'nome', 'email'] });
@@ -23,7 +22,6 @@ class UserController {
     }
   }
 
-  // Show
   async show(req, res) {
     try {
       const user = await User.findByPk(req.params.id);
@@ -35,7 +33,6 @@ class UserController {
     }
   }
 
-  // Update
   async update(req, res) {
     try {
       const user = await User.findByPk(req.userId);
@@ -56,7 +53,6 @@ class UserController {
     }
   }
 
-  // Delete
   async delete(req, res) {
     try {
       const user = await User.findByPk(req.userId);

@@ -1,4 +1,6 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }var _User = require('../models/User'); var _User2 = _interopRequireDefault(_User);
+Object.defineProperty(exports, '__esModule', { value: true }); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; } const _User = require('../models/User');
+
+const _User2 = _interopRequireDefault(_User);
 
 class UserController {
   async store(req, res) {
@@ -13,7 +15,6 @@ class UserController {
     }
   }
 
-  // Index
   async index(req, res) {
     try {
       const users = await _User2.default.findAll({ attributes: ['id', 'nome', 'email'] });
@@ -23,7 +24,6 @@ class UserController {
     }
   }
 
-  // Show
   async show(req, res) {
     try {
       const user = await _User2.default.findByPk(req.params.id);
@@ -35,7 +35,6 @@ class UserController {
     }
   }
 
-  // Update
   async update(req, res) {
     try {
       const user = await _User2.default.findByPk(req.userId);
@@ -56,7 +55,6 @@ class UserController {
     }
   }
 
-  // Delete
   async delete(req, res) {
     try {
       const user = await _User2.default.findByPk(req.userId);
@@ -77,4 +75,4 @@ class UserController {
   }
 }
 
-exports. default = new UserController();
+exports.default = new UserController();
